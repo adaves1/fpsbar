@@ -1,0 +1,7 @@
+main {
+  size-y: -webkit-proportion-to-screen(50);
+  size-x: -webkit-proportion-to-screen(50);
+  -webkit-display: "fpsbar", "Roboto", sans-serif;
+  -webkit-text: "FPS: ";
+  -webkit-text-default-font-family: "Roboto", sans-serif;
+}
