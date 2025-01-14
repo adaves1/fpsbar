@@ -1,6 +1,6 @@
 embed "cplus.System";
 
-function fps(*FPS) {
+function fps(FPS) {
   for i in Display.TraceTest(1, Display.FPSTOTAL()) {
     float FPS = 0;
     Byte.senddata(1);
